@@ -32,15 +32,16 @@ h1{
     align-items: center;
 }
 #libraryImg{
-    margin-top: 5px;
-    width: 200px;
-    height: 200px;
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 120px;
+    height: 120px;
 }
 
 @media (max-width: 400px){
     #libraryImg{
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
     h1{
         width: 120px;
