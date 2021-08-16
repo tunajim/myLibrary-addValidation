@@ -46,6 +46,10 @@ h1{
     h1{
         width: 120px;
     }
+
+    p{
+        text-align: center;
+    }
 }
 
 
