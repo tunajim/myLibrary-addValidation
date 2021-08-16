@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img id="libraryImg" src="libraryImage.png" alt="logo">
+        <div id="titleDiv">
+           <h1>My Library</h1>
+            <p>Keep track of books you have read!</p>
+        </div>
+        <button id="addBook" data-form-target="form"><img id="addBtn" src="add.svg" alt="add Book button"></button>
+    </header>
+
+    <form id="form">
+        <input type="text" id="authorName" class="input" placeholder="Enter Author's Name" required/>
+        <input name="bookTitle" type="text" id="bookName" class="input" placeholder="Enter Name of Book" required/>
+        <input type="text" id="pages" class="input" placeholder="Enter # of pages" required/>
+        <div id="readDiv">
+            <input type="radio" name="read" id="didRead" required/>
+            <label for="didRead">Did read</label><br> 
+        </div>
+        <div id="noReadDiv">
+            <input type="radio" name="read" id="didNotRead" required/>
+            <label for="didNotRead">Did not read</label><br>
+        </div>
+        <button id="submitBtn" type="submit" data-close-form >submit</button>
+    </form>
+    </div>
+    <div id="container">
+
+    </div>
+    <div id="overlay" ></div>
+    <footer>Icon made by Freepik from www.flaticon.com</footer>
+    <script src="script.js"></script>
+</body>
+</html>
