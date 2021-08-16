@@ -33,6 +33,8 @@ h1{
 }
 #libraryImg{
     margin-top: 5px;
+    width: 200px;
+    height: 200px;
 }
 
 @media (max-width: 400px){
