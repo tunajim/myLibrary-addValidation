@@ -41,7 +41,7 @@ p{
     text-align: center;
 }
 
-@media (max-width: 400px){
+@media (max-width: 500px){
     #libraryImg{
         width: 80px;
         height: 80px;
@@ -50,9 +50,10 @@ p{
         width: 120px;
     }
 
-    p{
-        text-align: center;
+    #container{
+        justify-content: center;
     }
+
 }
 
 
